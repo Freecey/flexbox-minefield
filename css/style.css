@@ -7,7 +7,7 @@
 .cont-mine {
     margin: auto;
     width: 312px;
-    height: 300px;
+    height: 312px;
     background: lightgray;
     margin: auto;
     border: 4mm ridge rgba(99, 99, 99, 0.6);
@@ -109,11 +109,12 @@
 
 .noclicked {
     opacity: 0;
+    /*border: 3px ridge rgba(99, 99, 99, 1); */
 }
 
 .noclicked:hover {
     opacity: 1;
 }
-section {
+div {
     border: solid black 1px
 }
