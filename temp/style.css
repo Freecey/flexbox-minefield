@@ -25,12 +25,23 @@
     display: flex;
     flex-wrap: wrap;
 }
-/*
-.box>* {
-    flex: 1 1 35px;
+
+
+section div {
+    border-style: none dotted dotted none;
+    border-color: black;
+    border-width:1px;
 }
-*/
-/* try to replace char to pic/icon*/
+
+
+
+
+
+
+
+
+
+
 
 .valm {
     background:url("../img/naval-mine.png") 0 0 no-repeat;
@@ -107,14 +118,25 @@
 }
 
 
-.noclicked {
-    opacity: 0;
-    /*border: 3px ridge rgba(99, 99, 99, 1); */
+
+
+
+.noclicked div{
+    position:absolute;
+    width:29px;
+    height:29px;
+    /*border*/
+    border: outset 5px #cacaca;
+    border-color: black;
+    font-size: 0;
+    background-size: 0 0;
 }
 
-.noclicked:hover {
-    opacity: 1;
+.noclicked div:hover{
+    font-size: 35px;
+    background-size: 35px 35px;
+    
+
+
 }
-div {
-    border: solid black 1px
-}
+
