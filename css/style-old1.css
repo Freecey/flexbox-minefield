@@ -32,7 +32,7 @@
 
 /* try to replace char to pic/icon*/
 
-.valm {
+.clicked + .valm {
     background:url("../img/naval-mine.png") 0 0 no-repeat;
     background-size: 35px 35px;
     display:block;
@@ -43,7 +43,7 @@
     border: dashed black 1px;
 }
 
-.val1 {
+.clicked + .val1 {
     background-color: lightgray;
     background-size: 35px 35px;
     display:block;
@@ -57,7 +57,7 @@
     color: blue;noclicked
 }
 
-.val2 {
+.clicked + .val2 {
     background-color: lightgray;
     background-size: 25px 25px;
     display:block;
@@ -71,7 +71,7 @@
     color: limegreen;
 }
 
-.val3 {
+.clicked + .val3 {
     background-color: lightgray;
     background-size: 25px 25px;
     display:block;
@@ -85,7 +85,7 @@
     color: red;
 }
 
-.val4 {
+.clicked + .val4 {
     background-color: lightgray;
     background-size: 25px 25px;
     display:block;
@@ -99,7 +99,7 @@
     color: brown;
 }
 
-.val0 {
+.clicked + .val0 {
     background-color: lightgray;
     background-size: 25px 25px;
     display:block;
@@ -111,15 +111,5 @@
 }
 
 .noclicked {
-    opacity: 0;
     background-color: rosybrown;
-    border: solid black 1px;
-}
-
-.noclicked:hover {
-    opacity: 1;
-}
-
-div {
-    border: solid black 1px;
 }
