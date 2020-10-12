@@ -1,0 +1,132 @@
+
+.cadre1 {
+    background-color: gray;
+    font-family: Courier;
+}
+
+/*
+15px par case *8 = 120px
+border 1 (*2*8) = 16px
+space cell 2px * 7 = 14px
++- 150px 
+add 15px correction*/
+
+.cont-mine {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background: lightgray;
+    margin: auto;
+    border: solid black 1px;
+    padding: 2px;
+  }
+
+.minepoz {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;}
+}
+.box>* {
+    flex: 1 1 35px;
+}
+
+/* try to replace char to pic/icon*/
+.img-mine {
+    background:url("../img/naval-mine.png") 0 0 no-repeat;
+    background-size: 35px 35px;
+    display:block;
+    height:35px; /* your image height */
+    text-indent:-99999em;
+    width:35px; /* your image width */
+    overflow:hidden;
+    border: dashed black 1px;
+}
+
+.img-one {
+    background-color: lightgray;
+    background-size: 35px 35px;
+    display:block;
+    height: 35px; /* your image height */
+    /*text-indent:-99999em;  */
+    width: 35px; /* your image width */
+    overflow:hidden;
+    border: dashed black 1px;
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+}
+
+.img-two {
+    background-color: lightgray;
+    background-size: 25px 25px;
+    display:block;
+    height: 35px; /* your image height */
+    /*text-indent:-99999em; */
+    width: 35px; /* your image width */
+    overflow:hidden;
+    border: dashed black 1px;
+    text-align: center;
+    font-size: 35px;
+    color: limegreen;
+}
+
+.img-three {
+    background-color: lightgray;
+    background-size: 25px 25px;
+    display:block;
+    height: 35px; /* your image height */
+    /*text-indent:-99999em; */
+    width: 35px; /* your image width */
+    overflow:hidden;
+    border: dashed black 1px;
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+
+.img-four {
+    background-color: lightgray;
+    background-size: 25px 25px;
+    display:block;
+    height: 35px; /* your image height */
+    /*text-indent:-99999em; */
+    width: 35px; /* your image width */
+    overflow:hidden;
+    border: dashed black 1px;
+    text-align: center;
+    font-size: 35px;
+    color: brown;
+}
+
+.img-empty {
+    background-color: lightgray;
+    background-size: 25px 25px;
+    display:block;
+    height: 35px; /* your image height */
+    text-indent:-99999em;
+    width: 35px; /* your image width */
+    overflow:hidden;
+    border: dashed black 1px;
+}
+
+
+.img-full {
+    background-color: gray;
+    background-size: 25px 25px;
+    display:block;
+    height: 35px; /* your image height */
+    text-indent:-99999em;
+    width: 35px; /* your image width */
+    overflow:hidden;
+    border: dashed black 1px;
+    box-shadow: 2px 2px 1px #000000;
+}
+
+.img-full:hover {
+    background-color: rgb(190, 190, 190);
+}

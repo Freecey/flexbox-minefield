@@ -1,0 +1,9 @@
+.img2-mi{
+    color: #fff;
+    text-indent: -9999px;
+    background: url("../img/naval-mine.png") no-repeat;
+    background-size: 25px 25px;
+    height: auto;
+    border: solid black 1px;
+    padding: 2px;
+    }
