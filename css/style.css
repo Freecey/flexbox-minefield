@@ -1,0 +1,81 @@
+
+body {
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.flex-cont {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: #Cacaca;
+    justify-content: center ;
+    border: outset 20px;
+}
+
+.colonne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+.colonne div {
+    border: black dotted 1px;
+    padding: 1px;
+    width: 45px;
+    height: 45px;
+    flex: none;
+    
+}
+
+
+/* Unclicked box */
+
+.noclicked div {
+    flex: none;
+    font-size: 0px;
+    border: outset 5px black;
+    margin-left: -2px;
+    width: 38px;
+    height: 38px;
+    background-size: 0px 0px;
+}
+
+.noclicked div:hover {
+    font-size: 35px;
+    border: black dotted 1px;
+    width: 45px;
+    height: 45px;
+    margin-left: 0px;
+    background-size: 35px 35px;
+}
+
+/* Color Number */
+
+.val1 {
+    color: green;
+}
+.val2 {
+    color: blue;
+}
+.val3 {
+    color: red;
+}
+.val4 {
+    color: darkmagenta;
+}
+
+.val0 {
+    color: transparent;
+}
+
+.valm {
+    background: url(../img/naval-mine.png) no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+    color: transparent;
+}
